@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
+''' An asynchronous coroutine that takes in an integer'''
+
 
 from typing import List
-
-
-''' An asynchronous coroutine that takes in an integer'''
 
 
 async def task_wait_n(n: int, max_delay: int) -> List[float]:

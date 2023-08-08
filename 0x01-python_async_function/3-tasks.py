@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
+''' An asynchronous coroutine that takes in an integer'''
+
 
 import asyncio
 
-
-''' An asynchronous coroutine that takes in an integer'''
 
 
 def task_wait_random(max_delay: int) -> asyncio.Task:
