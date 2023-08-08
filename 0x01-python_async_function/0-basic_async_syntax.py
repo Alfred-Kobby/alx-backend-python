@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
+''' An asynchronous coroutine that takes in an integer'''
+
 
 import asyncio
 from random import uniform
-
-
-''' An asynchronous coroutine that takes in an integer'''
 
 
 async def wait_random(max_delay: int = 10) -> float:
